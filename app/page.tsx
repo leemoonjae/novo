@@ -272,11 +272,13 @@ export default function Page() {
 
           {/* 사업자 정보 – 여기를 실제 정보로 수정하면 됨 */}
           <div className="text-xs leading-relaxed text-white/50">
-            <div>사업자명 : 문</div>
-            <div>대표자 : 이문재</div>
-            <div>사업자등록번호 : 661-37-01509</div>
-            <div>주소 : 광주광역시 북구 동문대로65번길20 202-1803</div>
-          </div>
+           <div className="flex flex-wrap gap-x-4 gap-y-1">
+            <span>사업자명 : 문</span>
+            <span>대표자 : 이문재</span>
+            <span>사업자등록번호 : 661-37-01509</span>
+            <span>주소 : 광주광역시 북구 동문대로65번길20 202-1803</span>
+           </div>
+          </div> 
 
           {/* 링크들 */}
           <div className="flex flex-col gap-2 text-xs md:items-end">
