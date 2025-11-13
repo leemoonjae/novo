@@ -256,25 +256,27 @@ export default function Page() {
       </section>
 
       {/* Footer */}
-      <footer className="mx-auto w-full max-w-7xl px-5 py-10 text-sm text-white/50">
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <div className="flex items-center gap-3">
-            <NovoSymbol size={24} />
-            <span>NOVO · 빛으로 남는 기록</span>
-          </div>
-          <div className="flex gap-5">
-            <a href="#" className="hover:text-white/80">
-              이용약관
-            </a>
-            <a href="#" className="hover:text-white/80">
-              개인정보처리방침
-            </a>
-            <a href="#" className="hover:text-white/80">
-              Contact
-            </a>
-          </div>
-        </div>
-      </footer>
-    </main>
-  );
-}
+<footer className="mt-20 px-4 py-10 text-center text-sm text-gray-400">
+  <div>
+    <strong>NOVO</strong> · 빛으로 남는 기록
+  </div>
+
+  <div className="mt-4">
+    사업자명 : 문  
+    <br />
+    대표자 : 이문재  
+    <br />
+    사업자등록번호 : 661-37-01509  
+    <br />
+    주소 : 광주광역시 북구 동문대로65번길 20, 202-1803  
+  </div>
+
+  <div className="mt-4">
+    <a href="#">이용약관</a> · <a href="#">개인정보처리방침</a>
+  </div>
+
+  <div className="mt-4">
+    © 2025 NOVO. All rights reserved.
+  </div>
+</footer>
+
